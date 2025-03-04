@@ -1,4 +1,32 @@
-## 0.13.x
+## 0.14.3
+
+* Added `isRetryPossible : Error -> Bool` to `Error` (#692).
+* Made `ExperimentalInternetComputer.replyDeadline` to return
+  an optional return type (#693).
+  _Caveat_: Breaking change (minor).
+* Added `isReplicated : () -> Bool` to `ExperimentalInternetComputer` (#694).
+
+## 0.14.2
+
+(nothing)
+
+## 0.14.1
+
+(nothing)
+
+## 0.14.0
+
+(nothing)
+
+## 0.13.7
+
+(nothing)
+
+## 0.13.6
+
+(nothing)
+
+## 0.13.5
 
 * Added `Text.fromList` and `Text.toList` functions (#676).
 
